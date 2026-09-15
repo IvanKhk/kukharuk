@@ -1,0 +1,1719 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "name": "Ledger 1",
+      "type": "system",
+      "domain": "Payments",
+      "owner": "Platform",
+      "description": "Payments system supporting the enterprise integration landscape.",
+      "criticality": 1,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n2",
+      "name": "Gateway 2",
+      "type": "service",
+      "domain": "Risk",
+      "owner": "Payments",
+      "description": "Risk service supporting the enterprise integration landscape.",
+      "criticality": 2,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n3",
+      "name": "Fraud 3",
+      "type": "datastore",
+      "domain": "Core Banking",
+      "owner": "Data Office",
+      "description": "Core Banking datastore supporting the enterprise integration landscape.",
+      "criticality": 3,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n4",
+      "name": "Warehouse 4",
+      "type": "team",
+      "domain": "Data",
+      "owner": "Risk Team",
+      "description": "Data team supporting the enterprise integration landscape.",
+      "criticality": 4,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n5",
+      "name": "Portal 5",
+      "type": "system",
+      "domain": "Operations",
+      "owner": "Platform",
+      "description": "Operations system supporting the enterprise integration landscape.",
+      "criticality": 5,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n6",
+      "name": "Ledger 6",
+      "type": "service",
+      "domain": "Customer",
+      "owner": "Payments",
+      "description": "Customer service supporting the enterprise integration landscape.",
+      "criticality": 1,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n7",
+      "name": "Gateway 7",
+      "type": "datastore",
+      "domain": "Payments",
+      "owner": "Data Office",
+      "description": "Payments datastore supporting the enterprise integration landscape.",
+      "criticality": 2,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n8",
+      "name": "Fraud 8",
+      "type": "team",
+      "domain": "Risk",
+      "owner": "Risk Team",
+      "description": "Risk team supporting the enterprise integration landscape.",
+      "criticality": 3,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n9",
+      "name": "Warehouse 9",
+      "type": "system",
+      "domain": "Core Banking",
+      "owner": "Platform",
+      "description": "Core Banking system supporting the enterprise integration landscape.",
+      "criticality": 4,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n10",
+      "name": "Portal 10",
+      "type": "service",
+      "domain": "Data",
+      "owner": "Payments",
+      "description": "Data service supporting the enterprise integration landscape.",
+      "criticality": 5,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n11",
+      "name": "Ledger 11",
+      "type": "datastore",
+      "domain": "Operations",
+      "owner": "Data Office",
+      "description": "Operations datastore supporting the enterprise integration landscape.",
+      "criticality": 1,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n12",
+      "name": "Gateway 12",
+      "type": "team",
+      "domain": "Customer",
+      "owner": "Risk Team",
+      "description": "Customer team supporting the enterprise integration landscape.",
+      "criticality": 2,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n13",
+      "name": "Fraud 13",
+      "type": "system",
+      "domain": "Payments",
+      "owner": "Platform",
+      "description": "Payments system supporting the enterprise integration landscape.",
+      "criticality": 3,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n14",
+      "name": "Warehouse 14",
+      "type": "service",
+      "domain": "Risk",
+      "owner": "Payments",
+      "description": "Risk service supporting the enterprise integration landscape.",
+      "criticality": 4,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n15",
+      "name": "Portal 15",
+      "type": "datastore",
+      "domain": "Core Banking",
+      "owner": "Data Office",
+      "description": "Core Banking datastore supporting the enterprise integration landscape.",
+      "criticality": 5,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n16",
+      "name": "Ledger 16",
+      "type": "team",
+      "domain": "Data",
+      "owner": "Risk Team",
+      "description": "Data team supporting the enterprise integration landscape.",
+      "criticality": 1,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n17",
+      "name": "Gateway 17",
+      "type": "system",
+      "domain": "Operations",
+      "owner": "Platform",
+      "description": "Operations system supporting the enterprise integration landscape.",
+      "criticality": 2,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n18",
+      "name": "Fraud 18",
+      "type": "service",
+      "domain": "Customer",
+      "owner": "Payments",
+      "description": "Customer service supporting the enterprise integration landscape.",
+      "criticality": 3,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n19",
+      "name": "Warehouse 19",
+      "type": "datastore",
+      "domain": "Payments",
+      "owner": "Data Office",
+      "description": "Payments datastore supporting the enterprise integration landscape.",
+      "criticality": 4,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n20",
+      "name": "Portal 20",
+      "type": "team",
+      "domain": "Risk",
+      "owner": "Risk Team",
+      "description": "Risk team supporting the enterprise integration landscape.",
+      "criticality": 5,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n21",
+      "name": "Ledger 21",
+      "type": "system",
+      "domain": "Core Banking",
+      "owner": "Platform",
+      "description": "Core Banking system supporting the enterprise integration landscape.",
+      "criticality": 1,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n22",
+      "name": "Gateway 22",
+      "type": "service",
+      "domain": "Data",
+      "owner": "Payments",
+      "description": "Data service supporting the enterprise integration landscape.",
+      "criticality": 2,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n23",
+      "name": "Fraud 23",
+      "type": "datastore",
+      "domain": "Operations",
+      "owner": "Data Office",
+      "description": "Operations datastore supporting the enterprise integration landscape.",
+      "criticality": 3,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n24",
+      "name": "Warehouse 24",
+      "type": "team",
+      "domain": "Customer",
+      "owner": "Risk Team",
+      "description": "Customer team supporting the enterprise integration landscape.",
+      "criticality": 4,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n25",
+      "name": "Portal 25",
+      "type": "system",
+      "domain": "Payments",
+      "owner": "Platform",
+      "description": "Payments system supporting the enterprise integration landscape.",
+      "criticality": 5,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n26",
+      "name": "Ledger 26",
+      "type": "service",
+      "domain": "Risk",
+      "owner": "Payments",
+      "description": "Risk service supporting the enterprise integration landscape.",
+      "criticality": 1,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n27",
+      "name": "Gateway 27",
+      "type": "datastore",
+      "domain": "Core Banking",
+      "owner": "Data Office",
+      "description": "Core Banking datastore supporting the enterprise integration landscape.",
+      "criticality": 2,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n28",
+      "name": "Fraud 28",
+      "type": "team",
+      "domain": "Data",
+      "owner": "Risk Team",
+      "description": "Data team supporting the enterprise integration landscape.",
+      "criticality": 3,
+      "tech": [
+        "Kafka",
+        "PostgreSQL",
+        "React",
+        "gRPC"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n29",
+      "name": "Warehouse 29",
+      "type": "system",
+      "domain": "Operations",
+      "owner": "Platform",
+      "description": "Operations system supporting the enterprise integration landscape.",
+      "criticality": 4,
+      "tech": [
+        "Kafka"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "staging",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "n30",
+      "name": "Portal 30",
+      "type": "service",
+      "domain": "Customer",
+      "owner": "Payments",
+      "description": "Customer service supporting the enterprise integration landscape.",
+      "criticality": 5,
+      "tech": [
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "links": [
+        "https://example.com/docs"
+      ],
+      "meta": {
+        "environment": "production",
+        "region": "eu-west-1"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    }
+  ],
+  "links": [
+    {
+      "id": "l1",
+      "source": "n1",
+      "target": "n6",
+      "type": "kafka",
+      "protocol": "topic.1",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 20,
+        "errorRate": 0,
+        "throughput": 100
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l2",
+      "source": "n2",
+      "target": "n13",
+      "type": "rest",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 23,
+        "errorRate": 0.01,
+        "throughput": 115
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l3",
+      "source": "n3",
+      "target": "n20",
+      "type": "db",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 26,
+        "errorRate": 0.02,
+        "throughput": 130
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l4",
+      "source": "n4",
+      "target": "n27",
+      "type": "event",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 29,
+        "errorRate": 0.03,
+        "throughput": 145
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l5",
+      "source": "n5",
+      "target": "n4",
+      "type": "grpc",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 32,
+        "errorRate": 0.04,
+        "throughput": 160
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l6",
+      "source": "n6",
+      "target": "n11",
+      "type": "kafka",
+      "protocol": "topic.6",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 35,
+        "errorRate": 0.05,
+        "throughput": 175
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l7",
+      "source": "n7",
+      "target": "n18",
+      "type": "rest",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 38,
+        "errorRate": 0.06,
+        "throughput": 190
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l8",
+      "source": "n8",
+      "target": "n25",
+      "type": "db",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 41,
+        "errorRate": 0,
+        "throughput": 205
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l9",
+      "source": "n9",
+      "target": "n2",
+      "type": "event",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 44,
+        "errorRate": 0.01,
+        "throughput": 220
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l10",
+      "source": "n10",
+      "target": "n9",
+      "type": "grpc",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 47,
+        "errorRate": 0.02,
+        "throughput": 235
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l11",
+      "source": "n11",
+      "target": "n16",
+      "type": "kafka",
+      "protocol": "topic.11",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 50,
+        "errorRate": 0.03,
+        "throughput": 250
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l12",
+      "source": "n12",
+      "target": "n23",
+      "type": "rest",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 53,
+        "errorRate": 0.04,
+        "throughput": 265
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l13",
+      "source": "n13",
+      "target": "n30",
+      "type": "db",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 56,
+        "errorRate": 0.05,
+        "throughput": 280
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l14",
+      "source": "n14",
+      "target": "n7",
+      "type": "event",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 59,
+        "errorRate": 0.06,
+        "throughput": 295
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l15",
+      "source": "n15",
+      "target": "n14",
+      "type": "grpc",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 62,
+        "errorRate": 0,
+        "throughput": 310
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l16",
+      "source": "n16",
+      "target": "n21",
+      "type": "kafka",
+      "protocol": "topic.16",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 65,
+        "errorRate": 0.01,
+        "throughput": 325
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l17",
+      "source": "n17",
+      "target": "n28",
+      "type": "rest",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 68,
+        "errorRate": 0.02,
+        "throughput": 340
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l18",
+      "source": "n18",
+      "target": "n5",
+      "type": "db",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 71,
+        "errorRate": 0.03,
+        "throughput": 355
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l19",
+      "source": "n19",
+      "target": "n12",
+      "type": "event",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 74,
+        "errorRate": 0.04,
+        "throughput": 370
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l20",
+      "source": "n20",
+      "target": "n19",
+      "type": "grpc",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 77,
+        "errorRate": 0.05,
+        "throughput": 385
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l21",
+      "source": "n21",
+      "target": "n26",
+      "type": "kafka",
+      "protocol": "topic.21",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 80,
+        "errorRate": 0.06,
+        "throughput": 400
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l22",
+      "source": "n22",
+      "target": "n3",
+      "type": "rest",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 83,
+        "errorRate": 0,
+        "throughput": 415
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l23",
+      "source": "n23",
+      "target": "n10",
+      "type": "db",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 86,
+        "errorRate": 0.01,
+        "throughput": 430
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l24",
+      "source": "n24",
+      "target": "n17",
+      "type": "event",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 89,
+        "errorRate": 0.02,
+        "throughput": 445
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l25",
+      "source": "n25",
+      "target": "n24",
+      "type": "grpc",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 92,
+        "errorRate": 0.03,
+        "throughput": 460
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l26",
+      "source": "n26",
+      "target": "n1",
+      "type": "kafka",
+      "protocol": "topic.26",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 95,
+        "errorRate": 0.04,
+        "throughput": 475
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l27",
+      "source": "n27",
+      "target": "n8",
+      "type": "rest",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 98,
+        "errorRate": 0.05,
+        "throughput": 490
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l28",
+      "source": "n28",
+      "target": "n15",
+      "type": "db",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 101,
+        "errorRate": 0.06,
+        "throughput": 505
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l29",
+      "source": "n29",
+      "target": "n22",
+      "type": "event",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 104,
+        "errorRate": 0,
+        "throughput": 520
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l30",
+      "source": "n30",
+      "target": "n29",
+      "type": "grpc",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 107,
+        "errorRate": 0.01,
+        "throughput": 535
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l31",
+      "source": "n1",
+      "target": "n6",
+      "type": "kafka",
+      "protocol": "topic.31",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 110,
+        "errorRate": 0.02,
+        "throughput": 550
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l32",
+      "source": "n2",
+      "target": "n13",
+      "type": "rest",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 113,
+        "errorRate": 0.03,
+        "throughput": 565
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l33",
+      "source": "n3",
+      "target": "n20",
+      "type": "db",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 116,
+        "errorRate": 0.04,
+        "throughput": 580
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l34",
+      "source": "n4",
+      "target": "n27",
+      "type": "event",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 119,
+        "errorRate": 0.05,
+        "throughput": 595
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l35",
+      "source": "n5",
+      "target": "n4",
+      "type": "grpc",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 122,
+        "errorRate": 0.06,
+        "throughput": 610
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l36",
+      "source": "n6",
+      "target": "n11",
+      "type": "kafka",
+      "protocol": "topic.36",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 125,
+        "errorRate": 0,
+        "throughput": 625
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l37",
+      "source": "n7",
+      "target": "n18",
+      "type": "rest",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 128,
+        "errorRate": 0.01,
+        "throughput": 640
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l38",
+      "source": "n8",
+      "target": "n25",
+      "type": "db",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 131,
+        "errorRate": 0.02,
+        "throughput": 655
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l39",
+      "source": "n9",
+      "target": "n2",
+      "type": "event",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 134,
+        "errorRate": 0.03,
+        "throughput": 670
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l40",
+      "source": "n10",
+      "target": "n9",
+      "type": "grpc",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 137,
+        "errorRate": 0.04,
+        "throughput": 685
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l41",
+      "source": "n11",
+      "target": "n16",
+      "type": "kafka",
+      "protocol": "topic.41",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 140,
+        "errorRate": 0.05,
+        "throughput": 700
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l42",
+      "source": "n12",
+      "target": "n23",
+      "type": "rest",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 143,
+        "errorRate": 0.06,
+        "throughput": 715
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l43",
+      "source": "n13",
+      "target": "n30",
+      "type": "db",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 146,
+        "errorRate": 0,
+        "throughput": 730
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l44",
+      "source": "n14",
+      "target": "n7",
+      "type": "event",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 149,
+        "errorRate": 0.01,
+        "throughput": 745
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l45",
+      "source": "n15",
+      "target": "n14",
+      "type": "grpc",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 152,
+        "errorRate": 0.02,
+        "throughput": 760
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l46",
+      "source": "n16",
+      "target": "n21",
+      "type": "kafka",
+      "protocol": "topic.46",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 155,
+        "errorRate": 0.03,
+        "throughput": 775
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l47",
+      "source": "n17",
+      "target": "n28",
+      "type": "rest",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 158,
+        "errorRate": 0.04,
+        "throughput": 790
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l48",
+      "source": "n18",
+      "target": "n5",
+      "type": "db",
+      "protocol": "/api/v3/resource",
+      "direction": "source->target",
+      "sla": "99.7%",
+      "metrics": {
+        "avgLatencyMs": 161,
+        "errorRate": 0.05,
+        "throughput": 805
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l49",
+      "source": "n19",
+      "target": "n12",
+      "type": "event",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.8%",
+      "metrics": {
+        "avgLatencyMs": 164,
+        "errorRate": 0.06,
+        "throughput": 820
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l50",
+      "source": "n20",
+      "target": "n19",
+      "type": "grpc",
+      "protocol": "/api/v2/resource",
+      "direction": "source->target",
+      "sla": "99.9%",
+      "metrics": {
+        "avgLatencyMs": 167,
+        "errorRate": 0,
+        "throughput": 835
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l51",
+      "source": "n21",
+      "target": "n26",
+      "type": "kafka",
+      "protocol": "topic.51",
+      "direction": "source->target",
+      "sla": "99.5%",
+      "metrics": {
+        "avgLatencyMs": 170,
+        "errorRate": 0.01,
+        "throughput": 850
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "confidential"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "l52",
+      "source": "n22",
+      "target": "n3",
+      "type": "rest",
+      "protocol": "/api/v1/resource",
+      "direction": "source->target",
+      "sla": "99.6%",
+      "metrics": {
+        "avgLatencyMs": 173,
+        "errorRate": 0.02,
+        "throughput": 865
+      },
+      "description": "Operational integration carrying business events and requests.",
+      "meta": {
+        "classification": "internal"
+      },
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    }
+  ]
+}
